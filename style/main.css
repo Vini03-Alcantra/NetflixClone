@@ -57,10 +57,11 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.titulo{
+.filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -72,5 +73,16 @@ header nav a:hover{
     color: white;
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
 }
